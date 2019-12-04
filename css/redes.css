@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 9, 2019, 3:57:51 PM
+    Author     : milagros
+*/
+
+
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icono{
+    color: white;
+    text-decoration: none;
+    padding: 1.1rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook-squared{
+    background: #2e406e;
+
+}
+
+.icon-twitter{
+    background: #339dc5;
+}
+
+.icon-youtube-play{
+    background: #e83028;
+
+}
+
+.icon-instagram{
+    background: #3f60a5;
+}
+
+.icono:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.icono:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+.icono:hover{
+    padding-right: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}

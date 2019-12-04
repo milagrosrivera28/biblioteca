@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 14, 2019, 11:28:51 PM
+    Author     : milagros
+*/
+
+
+textArea{
+    font-family: "Lucida Sans", sans-serif;
+}
+
+button, input[type=submit],legend{
+    background-color: #b72a67;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: #dedede;
+    color: black;
+}
+
+fieldset{
+    border: 2px solid #b72a67; /*dotted*/
+    border-radius: 30px;
+    background-color: #eee;
+}
+
+div .parrafo{
+    color: #F2EABC;
+    text-align: justify;
+}
+
+div .titulo{
+    color: red;
+}
+
+article{
+    overflow-x: auto;
+}

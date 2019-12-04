@@ -1,0 +1,205 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 7, 2019, 10:09:45 AM
+    Author     : milagros
+*/
+
+div .map {
+    max-width: 3000px;
+    text-align: center;
+}
+
+div .map > iframe {
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+div .logo{
+/*    padding: 0px 0px 0px 50px;*/
+    height: auto;
+    width: 100%;
+    max-width: 10rem;
+    padding: 0px auto;
+}
+
+div .nombre{
+    padding: 40px 0px 0px 25px;
+    height: auto;
+    width: 50%;
+}
+
+div .menu_normal{
+    text-align: center;
+    width: 55%;
+    padding: 50px 0px 0px 0px;
+    max-width: 1500px;
+}
+
+nav{
+    font-size: 1rem;
+}
+
+div .tail{
+   background-color: #0c084c;
+   margin: 0 auto;
+}
+
+footer{
+    width: 100%;
+    display: block;
+    background-color: #096386;
+}
+
+div .blog{
+    max-width: 1500px;
+    text-align: center;
+}
+
+div .blog > iframe{
+    width: 80%;
+    height: 300px;
+    border: 0;
+}
+
+div .archivo{
+    max-width: 1500px;
+    text-align: center;
+}
+
+div .archivo > object{
+    width: 80%;
+    height: 300px;
+    border: 0;
+}
+
+div .mp4 {
+    max-width: 1500px;
+    text-align: center;
+}
+
+div .mp4 > video{
+    width: 65%;
+    height: 300px;
+    border: 0;
+}
+
+.imagen:hover {filter: saturate(180%);} 
+
+/* Menu */
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+}
+
+.logotipo{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.logotipo h3{
+    font-family: "Lucida Sans", sans-serif;
+    font-weight: 500;
+    color: #0c084c;
+}
+
+.navegacion{
+    width: 100%;
+    background: #3d76cc;
+}
+
+.navegacion nav{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.boton-menu{
+    display: none;
+}
+
+.boton-menu span{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+    margin-top: 5px;
+}
+.menu{
+    list-style: none;
+    width: 100%;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Lucida Sans", sans-serif;
+}
+
+.menu li a:hover{
+    background: #84a6df;
+}
+
+/* Submenu */
+
+.submenu{
+    position: absolute;
+    background: #333333;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: "Lucida Sans", sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 700px){
+    .boton-menu{
+        width: 90%;
+        margin: auto;
+        display: block;
+        padding: 8px 0;
+    }
+
+    .navegacion nav{
+        position: absolute;
+        width: 130px;
+        height: 100%;
+        background: black;
+    }
+
+    .menu li{
+        display: block;
+    }
+}
+
